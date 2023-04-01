@@ -1,0 +1,265 @@
+:root { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  :root { font-family: 'Inter var', sans-serif; }
+}
+
+body {
+     /* Фон */
+    font-family: 'Inter';
+    background: #ffffff;
+    width: 1920px;
+    height: 2355px;
+    border: 1px solid #000000;
+}
+.header{
+    position: relative;
+    width: 1790px;
+    height: 50px;
+    left: 65px;
+    top: 50px;
+    border: 1px solid #000000;
+}
+.navbar {
+    border: 1px solid #c82121;
+	/*расположение блока меню*/
+	position: relative;
+    width: 358px;
+	padding: 0;
+    left: 1432px;
+    top: -60px;
+	text-align: center;
+	display: flex; /*Элемент navbar становится контейнером, а его прямые потомки li - элементами контейнера*/
+	justify-content: flex-end; /*Элементы контейнерa смещаются к концу главной оси*/
+}
+.navbar li {
+	display: inline-block;
+	margin-left: 75px; /*внешний отсутп слева (двигает слова друг от друга)*/
+}
+.navbar a {
+	display: inline-block; /*ссылка растягивается на весь пункт li*/
+	position: relative;
+	text-decoration: none; /* убрать нижнее подчёркивание у ссылок */
+	font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    color: #000000;
+}
+.el1{
+    position: absolute;
+    left: 40px;
+    top: 160px;
+}
+.el2{
+    position: absolute;
+    left: 245px;
+    top: 1100px;
+}
+.el3{
+    position: absolute;
+    left: 1720px;
+    top: 1025px;
+}
+.start_page{
+    position: relative;
+    width: 1548px;
+    height: 830px;
+    top: 252px;
+    left: 184px;
+    border: 1px solid #000000;
+}
+.content{
+    position: absolute;
+    width: 707px;
+    height: 401px;
+    top: 111px;
+    left: 841px;
+    border: 1px solid #000000;
+}
+.h1{
+    border: 1px solid #000000;
+    width: 707px;
+    height: 124px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+}
+.text1{
+    border: 1px solid #000000;
+    position: relative;
+    top: 35px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: justify;
+}
+.dop_content{
+    position: absolute;
+    top: 464px;
+    left: 152px;
+    width: 579px;
+    height: 366px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
+}
+.h3{
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 42px; /*расстояние между строк возможно так даша сказала но это не точно открой справочник дура да займись ты уже позиционированием*/
+}
+.h4{
+    position: absolute;
+    top: 117px;
+    left: 60px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    color: #C9A785;
+}
+.text2{
+    position: absolute;
+    left: 65px;
+    top: 183px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 40px;
+}
+.social{
+    position: absolute;
+    width: 98px;
+    height: 17px;
+    left: 421px;
+    top: 299px;
+    display: flex; /* это теперь контенер а  всо шо в нем компоненты контейнера*/
+	justify-content: flex-end;
+    border: 1px solid #000000;
+}
+.social a{
+    display: inline-block;
+	margin-left: 25px;
+}
+.social img{
+    display: inline-block; /*ссылка растягивается на весь пункт li*/
+	text-decoration: none;
+}
+.bottom{
+    display: flex;
+    position: absolute;
+    width: 650px;
+    height: 90px;
+    left: 870px;
+    top: 572px;
+    border: 1px solid #000000;
+}
+.bot1{
+    position: relative;
+    width: 295px;
+    height: 90px;
+
+    background: #C9A785;
+    border-radius: 60px;
+}
+.bot1 a{
+    position: relative;
+    top: 30px;
+    left: 81px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+.bot2{
+    position: relative;
+    width: 295px;
+    height: 90px;
+    left: 60px;
+
+    background: #FFFFFF;
+    border: 2px solid #C9A785;
+    border-radius: 60px;
+}
+.bot2 a{
+    position: relative;
+    top: 30px;
+    left: 53px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+
+}
+.knows {
+   /* Знания */
+    position: absolute;
+    width: 1548px;
+    height: 614.57px;
+    left: 186px;
+    top: 1330px;
+    border: 1px solid #000000;
+}
+
+.h2 {
+    /* h2 */
+    position: static;
+    width: 264px;
+    height: 54px;
+    left: 186px;
+    top: 1330px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+  
+    color: #000000;
+}
+
+.restangle2 {
+    /* Rectangle 2 */
+    /* position: absolute; */
+    width: 210px;
+    height: 15px;
+    left: 186px;
+    top: 1399px;
+
+    background: #C9A785;
+}
+
+.right {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 35.68px;
+
+    position: absolute;
+    width: 749.32px;
+    height: 465.57px;
+    left: 186px;
+    top: 1479px;
+}
